@@ -106,13 +106,11 @@ function operateOnNumebers($firstNum, $secondNum, $operator){
             $result =  $firstNum * $secondNum;
 
    return $result; 
+// Find the greatest common divisor in any given array
+// a function that takes in an array of numbers and sort them in increasing order
 
 }
 
-$sum = operateOnNumebers(2, 3, "/" );
+// $sum = operateOnNumebers(2, 3, "/" );
 ?>
 
-<h1>  <?php  print($sum); ?> <h1>
-
-// Find the greatest common divisor in any given array
-// a function that takes in an array of numbers and sort them in increasing order
