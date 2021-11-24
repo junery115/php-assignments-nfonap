@@ -1,6 +1,6 @@
 <?php 
 
-require "test.php";
+require "operations.php";
 $fnum; 
 $snum;
 $op; 
@@ -13,10 +13,9 @@ if( isset($_GET["submit"])){
     echo "this is the snumber ". $snum;
     echo "<br />";
     echo $fnum + $snum;
-$sum = operaeOnNumebers((int)$fnum, (int)$snum, $operator );
+$sum = operaeOnNumebers($fnum, $snum, $op );
 echo $sum;
 }
-// $total = operateOnNumebers($f,3,"*");
-// echo $total;
+echo $total;
 // print($fnu;);
 ?>
