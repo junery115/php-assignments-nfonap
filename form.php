@@ -15,7 +15,7 @@
      <div class="row" >
        <div class="col-sm-4 col-sm-offset-4">
             <h4>Input 2 numbers and choose an operator</h4>
-            <form action="/operate.php" method="GET" >
+            <form action="/demo/operate.php" method="GET" >
                 <div class="form-group">
                   <label for="firstNumber">First Number:</label>
                   <input type="text" class="form-control" id="first_number" value = "" name="fnumber" required>
